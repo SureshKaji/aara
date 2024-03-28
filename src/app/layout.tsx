@@ -18,14 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="font-poppins md:font-inter">
-        <Header/>
-      <div className="md:mx-auto md:container px-4 min-h-[200px] my-1 ">
-          {children}
-        </div>
-
-        <Footer/>
-        </body>
+      <body>{children}</body>
     </html>
   );
 }
