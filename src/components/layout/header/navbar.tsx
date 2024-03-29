@@ -36,7 +36,7 @@ const NavBar = () => {
                                 <li>
                                     <Link
                                         className="text-gray-800 transition hover:text-[#116466] "
-                                        href="/about"
+                                        href="/home/about"
                                     >
                                         About Us
                                     </Link>
@@ -46,7 +46,7 @@ const NavBar = () => {
                                     className="relative"
                                 >
                                     <Link
-                                        href={"/product"}
+                                        href={"/home/product"}
                                         className="text-gray-800 transition hover:text-[#116466] cursor-pointer "
                                     >
                                         Products
@@ -58,7 +58,7 @@ const NavBar = () => {
                                 <li>
                                     <Link
                                         className="text-gray-800 transition hover:text-[#116466] "
-                                        href="/contact">
+                                        href="/home/contact">
                                         Contact Us
                                     </Link>
                                 </li>
@@ -70,14 +70,14 @@ const NavBar = () => {
                     
                             <div className="sm:flex sm:gap-4">
                                 <Link
-                                    href="/login"
+                                    href="/home/login"
                                     className="block rounded-md bg-[#116466] px-5 py-2.5 text-sm font-medium text-white transition hover:bg-[#116566e6] ">
                                     Login
                                 </Link>
 
                                 <Link
                                     className="hidden rounded-md bg-gray-100 px-5 py-2.5 text-sm font-medium text-[#2f4550] transition hover:text-[#116466]/75 sm:block"
-                                    href="/register"
+                                    href="/home/register"
                                 >
                                     Register
                                 </Link>
