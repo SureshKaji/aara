@@ -10,8 +10,6 @@ export const CreateUser = async ({ email:email, username:username, password:pass
     return user
 }
 
-
-
 export const GetUser = async () => {
     const user = await prisma.user.findMany()
     console.log(user)
