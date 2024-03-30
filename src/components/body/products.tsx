@@ -6,11 +6,10 @@ const Products = () => {
     <section>
   <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
     <header className="text-center">
-      <h2 className="text-xl font-bold text-gray-900 sm:text-3xl">Product Collection</h2>
+      <h2 className="text-xl font-bold text-gray-900 sm:text-3xl">Aara Collection</h2>
 
       <p className="mx-auto mt-4 max-w-md text-gray-500">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque praesentium cumque iure
-        dicta incidunt est ipsam, officia dolor fugit natus?
+      Unveil the beauty of six yards through our curated online boutique.
       </p>
     </header>
 
@@ -27,13 +26,13 @@ const Products = () => {
 
           <div className="relative bg-white pt-3">
             <h3 className="text-xs text-gray-700 group-hover:underline group-hover:underline-offset-4">
-              Basic Tee
+            Maggam Work
             </h3>
 
             <p className="mt-2">
               <span className="sr-only"> Regular Price </span>
 
-              <span className="tracking-wider text-gray-900"> £24.00 GBP </span>
+              <span className="tracking-wider text-gray-900"> 3000 LKR </span>
             </p>
           </div>
         </a>
@@ -51,13 +50,13 @@ const Products = () => {
 
           <div className="relative bg-white pt-3">
             <h3 className="text-xs text-gray-700 group-hover:underline group-hover:underline-offset-4">
-              Basic Tee
+            Bridal Blouse Designs
             </h3>
 
             <p className="mt-2">
               <span className="sr-only"> Regular Price </span>
 
-              <span className="tracking-wider text-gray-900"> £24.00 GBP </span>
+              <span className="tracking-wider text-gray-900"> 7000 LKR</span>
             </p>
           </div>
         </a>
@@ -75,13 +74,13 @@ const Products = () => {
 
           <div className="relative bg-white pt-3">
             <h3 className="text-xs text-gray-700 group-hover:underline group-hover:underline-offset-4">
-              Basic Tee
+            Aari Work Stitching 
             </h3>
 
             <p className="mt-2">
               <span className="sr-only"> Regular Price </span>
 
-              <span className="tracking-wider text-gray-900"> £24.00 GBP </span>
+              <span className="tracking-wider text-gray-900">8000 LKR </span>
             </p>
           </div>
         </a>
@@ -99,13 +98,13 @@ const Products = () => {
 
           <div className="relative bg-white pt-3">
             <h3 className="text-xs text-gray-700 group-hover:underline group-hover:underline-offset-4">
-              Basic Tee
+            Bridal Blouse Design
             </h3>
 
             <p className="mt-2">
               <span className="sr-only"> Regular Price </span>
 
-              <span className="tracking-wider text-gray-900"> £24.00 GBP </span>
+              <span className="tracking-wider text-gray-900"> 10000 LKR </span>
             </p>
           </div>
         </a>
@@ -123,13 +122,13 @@ const Products = () => {
 
           <div className="relative bg-white pt-3">
             <h3 className="text-xs text-gray-700 group-hover:underline group-hover:underline-offset-4">
-              Basic Tee
+            Hand Work Design
             </h3>
 
             <p className="mt-2">
               <span className="sr-only"> Regular Price </span>
 
-              <span className="tracking-wider text-gray-900"> £24.00 GBP </span>
+              <span className="tracking-wider text-gray-900"> 7000 LKR </span>
             </p>
           </div>
         </a>
@@ -147,13 +146,13 @@ const Products = () => {
 
           <div className="relative bg-white pt-3">
             <h3 className="text-xs text-gray-700 group-hover:underline group-hover:underline-offset-4">
-              Basic Tee
+            Aari Work Stitching
             </h3>
 
             <p className="mt-2">
               <span className="sr-only"> Regular Price </span>
 
-              <span className="tracking-wider text-gray-900"> £24.00 GBP </span>
+              <span className="tracking-wider text-gray-900"> 5000 LKR </span>
             </p>
           </div>
         </a>
@@ -171,13 +170,14 @@ const Products = () => {
 
           <div className="relative bg-white pt-3">
             <h3 className="text-xs text-gray-700 group-hover:underline group-hover:underline-offset-4">
-              Basic Tee
+           
+            Heavy Design
             </h3>
 
             <p className="mt-2">
               <span className="sr-only"> Regular Price </span>
 
-              <span className="tracking-wider text-gray-900"> £24.00 GBP </span>
+              <span className="tracking-wider text-gray-900"> 12000 LKR </span>
             </p>
           </div>
         </a>
@@ -195,13 +195,13 @@ const Products = () => {
 
           <div className="relative bg-white pt-3">
             <h3 className="text-xs text-gray-700 group-hover:underline group-hover:underline-offset-4">
-              Basic Tee
+            Heavy Design  Maggam Work
             </h3>
 
             <p className="mt-2">
               <span className="sr-only"> Regular Price </span>
 
-              <span className="tracking-wider text-gray-900"> £24.00 GBP </span>
+              <span className="tracking-wider text-gray-900"> 15000 LKR </span>
             </p>
           </div>
         </a>

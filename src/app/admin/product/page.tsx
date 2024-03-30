@@ -2,6 +2,7 @@
 "use client";
 import { CreateProduct } from "@/action.ts/product";
 import React, { useState } from "react";
+import { Button } from "@/components/ui/button"
 
 const ProductPage = () => {
   const [formData, setFormData] = useState({
@@ -63,85 +64,95 @@ const ProductPage = () => {
 
   return (
     <div className="flex flex-col gap-9">
-      <div className="rounded-sm border border-stroke bg-white shadow-default dark:border-strokedark dark:bg-boxdark">
-        <div className="border-b border-stroke px-6.5 py-4 dark:border-strokedark">
-          <h3 className="font-medium text-black dark:text-white">
-            Add Product
-          </h3>
-        </div>
-        <form onSubmit={handleSubmit} className="p-6.5">
-          <div className="mb-4.5">
-            <label className="mb-3 block text-sm font-medium text-black dark:text-white">
-              Product Name
-            </label>
-            <input
-              type="text"
-              name="name"
-              value={formData.name}
-              onChange={handleChange}
-              placeholder="Enter product name"
-              className="w-full rounded border-[1.5px] border-stroke bg-transparent px-5 py-3 text-black outline-none transition focus:border-primary active:border-primary disabled:cursor-default disabled:bg-whiter dark:border-form-strokedark dark:bg-form-input dark:text-white dark:focus:border-primary"
-            />
-            {errors.name && <p className="text-red-500">{errors.name}</p>}
-          </div>
-
-          <div className="mb-4.5">
-            <label className="mb-3 block text-sm font-medium text-black dark:text-white">
-              Description
-            </label>
-            <textarea
-              name="description"
-              value={formData.description}
-              onChange={handleChange}
-              rows={4}
-              placeholder="Enter product description"
-              className="w-full rounded border-[1.5px] border-stroke bg-transparent px-5 py-3 text-black outline-none transition focus:border-primary active:border-primary disabled:cursor-default disabled:bg-whiter dark:border-form-strokedark dark:bg-form-input dark:text-white dark:focus:border-primary"
-            ></textarea>
-            {errors.description && (
-              <p className="text-red-500">{errors.description}</p>
-            )}
-          </div>
-
-          <div className="mb-4.5">
-            <label className="mb-3 block text-sm font-medium text-black dark:text-white">
-              Image URL
-            </label>
-            <input
-              type="text"
-              name="imageUrl"
-              value={formData.imageUrl}
-              onChange={handleChange}
-              placeholder="Enter product image URL"
-              className="w-full rounded border-[1.5px] border-stroke bg-transparent px-5 py-3 text-black outline-none transition focus:border-primary active:border-primary disabled:cursor-default disabled:bg-whiter dark:border-form-strokedark dark:bg-form-input dark:text-white dark:focus:border-primary"
-            />
-            {errors.imageUrl && (
-              <p className="text-red-500">{errors.imageUrl}</p>
-            )}
-          </div>
-
-          <div className="mb-4.5">
-            <label className="mb-3 block text-sm font-medium text-black dark:text-white">
-              Price
-            </label>
-            <input
-              type="number"
-              name="price"
-              value={formData.price}
-              onChange={handleChange}
-              placeholder="Enter product price"
-              className="w-full rounded border-[1.5px] border-stroke bg-transparent px-5 py-3 text-black outline-none transition focus:border-primary active:border-primary disabled:cursor-default disabled:bg-whiter dark:border-form-strokedark dark:bg-form-input dark:text-white dark:focus:border-primary"
-            />
-            {errors.price && <p className="text-red-500">{errors.price}</p>}
-          </div>
-
-          <button
-            type="submit"
-            className="flex w-full justify-center rounded bg-primary p-3 font-medium text-gray hover:bg-opacity-90 text-white"
-          >
-            Add Product
-          </button>
-        </form>
+  <div className="rounded-sm border border-stroke bg-white shadow-default dark:border-strokedark dark:bg-boxdark transition-all duration-300 hover:shadow-lg p-4">
+    <div className="border-b border-stroke px-6.5 py-4 dark:border-strokedark">
+      <h3 className="font-medium text-black dark:text-white transition-colors duration-300">
+        Add Product
+      </h3>
+    </div>
+    <form
+      onSubmit={handleSubmit}
+      className="p-6.5 transition-colors duration-300"
+    >
+      <div className="mb-4.5">
+        <label className="mb-3 block text-sm font-medium text-black dark:text-white transition-colors duration-300">
+          Product Name
+        </label>
+        <input
+          type="text"
+          name="name"
+          value={formData.name}
+          onChange={handleChange}
+          placeholder="Enter product name"
+          className="w-full rounded border-[1.5px] border-stroke bg-transparent px-5 py-3 text-black outline-none transition focus:border-primary active:border-primary disabled:cursor-default disabled:bg-whiter dark:border-form-strokedark dark:bg-form-input dark:text-white dark:focus:border-primary transition-colors duration-300 hover:shadow-sm"
+        />
+        {errors.name && (
+          <p className="text-red-500 transition-colors duration-300">
+            {errors.name}
+          </p>
+        )}
       </div>
+      <div className="mb-4.5">
+        <label className="mb-3 block text-sm font-medium text-black dark:text-white transition-colors duration-300">
+          Description
+        </label>
+        <textarea
+          name="description"
+          value={formData.description}
+          onChange={handleChange}
+          rows={4}
+          placeholder="Enter product description"
+          className="w-full rounded border-[1.5px] border-stroke bg-transparent px-5 py-3 text-black outline-none transition focus:border-primary active:border-primary disabled:cursor-default disabled:bg-whiter dark:border-form-strokedark dark:bg-form-input dark:text-white dark:focus:border-primary transition-colors duration-300 hover:shadow-sm"
+        ></textarea>
+        {errors.description && (
+          <p className="text-red-500 transition-colors duration-300">
+            {errors.description}
+          </p>
+        )}
+      </div>
+      <div className="mb-4.5">
+        <label className="mb-3 block text-sm font-medium text-black dark:text-white transition-colors duration-300">
+          Image URL
+        </label>
+        <input
+          type="text"
+          name="imageUrl"
+          value={formData.imageUrl}
+          onChange={handleChange}
+          placeholder="Enter product image URL"
+          className="w-full rounded border-[1.5px] border-stroke bg-transparent px-5 py-3 text-black outline-none transition focus:border-primary active:border-primary disabled:cursor-default disabled:bg-whiter dark:border-form-strokedark dark:bg-form-input dark:text-white dark:focus:border-primary transition-colors duration-300 hover:shadow-sm"
+        />
+        {errors.imageUrl && (
+          <p className="text-red-500 transition-colors duration-300">
+            {errors.imageUrl}
+          </p>
+        )}
+      </div>
+      <div className="mb-4.5">
+        <label className="mb-3 block text-sm font-medium text-black dark:text-white transition-colors duration-300">
+          Price
+        </label>
+        <input
+          type="number"
+          name="price"
+          value={formData.price}
+          onChange={handleChange}
+          placeholder="Enter product price"
+          className="w-full rounded border-[1.5px] border-stroke bg-transparent px-5 py-3 text-black outline-none transition focus:border-primary active:border-primary disabled:cursor-default disabled:bg-whiter dark:border-form-strokedark dark:bg-form-input dark:text-white dark:focus:border-primary transition-colors duration-300 hover:shadow-sm"
+        />
+        {errors.price && (
+          <p className="text-red-500 transition-colors duration-300">
+            {errors.price}
+          </p>
+        )}
+      </div>
+      <Button
+        type="submit" className="mt-2 items-center">
+        Add Product
+      </Button>
+    </form>
+  </div>
+
 
       {/* <div>
         <h3 className="font-medium text-black dark:text-white">Products</h3>

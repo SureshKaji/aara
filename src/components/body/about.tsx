@@ -14,7 +14,7 @@ const About = () => {
                   <Image
                     width={300}
                     height={400}
-                    src={"/svg/aari1.jpg"}
+                    src={"/svg/4.jpeg"}
                     alt=""
                     className="w-full rounded-2xl"
                   />
@@ -23,7 +23,7 @@ const About = () => {
                   <Image
                     width={300}
                     height={400}
-                    src={"/svg/aari1.jpg"}
+                    src={"/svg/3.jpeg"}
                     alt=""
                     className="w-full rounded-2xl"
                   />
@@ -34,7 +34,7 @@ const About = () => {
                   <Image
                     width={300}
                     height={400}
-                    src={"/svg/aari1.jpg"}
+                    src={"/svg/2.jpeg"}
                     alt=""
                     className="w-full rounded-2xl"
                   />
@@ -46,20 +46,20 @@ const About = () => {
           <div className="w-full px-4 lg:w-1/2  xl:w-5/12">
             <div className="mt-5 lg:mt-0">
               <span className="block mb-4 text-lg font-semibold text-primary">
-                Why Choose Us
+                About US
               </span>
               <h2 className="mb-5 text-3xl font-bold text-dark  sm:text-[40px]/[48px]">
                 Make your customers happy by giving services.
               </h2>
               <p className="mb-5 text-base text-body-color ">
-                It is a long established fact that a reader will be distracted
-                by the readable content of a page when looking at its layout.
-                The point of using Lorem Ipsum is that it has a more-or-less.
+               Embrace the timeless allure of saree blouse on our website, 
+               where each click unveils a world of elegance. Just as a reader is captivated by the engaging layout of a page, 
+               immerse yourself in the captivating designs and exquisite craftsmanship of our saree blouse collections. 
               </p>
               <p className="mb-8 text-base text-body-color">
-                A domain name is one of the first steps to establishing your
-                brand. Secure a consistent brand image with a domain name that
-                matches your business.
+              unparalleled shopping experience, where the allure of traditional attire meets the convenience 
+              of online browsing. Step into our digital boutique and discover why saree bloues are more than just fabric 
+              they are a narrative of culture and style. 
               </p>
 
             </div>

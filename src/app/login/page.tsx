@@ -38,7 +38,7 @@ const LoginPage = () => {
               <input
                 type="email"
                 className="w-full rounded-lg border-gray-200 border p-4 pe-12 text-sm shadow-sm"
-                placeholder="test@gmail.com"
+                placeholder="aara@gmail.com"
                 required
                 name="email"
             
@@ -80,7 +80,7 @@ const LoginPage = () => {
         <Image
           fill
           alt="Welcome"
-          src={"/svg/aari1.jpg"}
+          src={"/svg/aaarilogin.jpg"}
           className="absolute inset-0 h-full w-full object-cover"
         />
       </div>

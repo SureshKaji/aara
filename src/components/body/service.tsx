@@ -19,20 +19,16 @@ const Service = () => {
             <div className="w-full px-4 lg:w-1/2  xl:w-5/12">
             <div className="mt-5 lg:mt-0">
               <span className="block mb-4 text-lg font-semibold text-primary">
-                Why Choose Us
+               We Provide Best Service
               </span>
               <h2 className="mb-5 text-3xl font-bold text-dark  sm:text-[40px]/[48px]">
-                Make your customers happy by giving services.
+              Best customized designer boutique at Jaffna
               </h2>
               <p className="mb-5 text-base text-body-color ">
-                It is a long established fact that a reader will be distracted
-                by the readable content of a page when looking at its layout.
-                The point of using Lorem Ipsum is that it has a more-or-less.
+              If you are looking for something unique, Aara Fashion in Jaffna has a wide range of collections to choose from, as well as courteous guidance.
               </p>
               <p className="mb-8 text-base text-body-color">
-                A domain name is one of the first steps to establishing your
-                brand. Secure a consistent brand image with a domain name that
-                matches your business.
+              Aari embroidered blouses, Bridal blouses, Saree waist belts, Lehengas, and Readymade designer blouses are among our specialty offerings
               </p>
 
             </div>
