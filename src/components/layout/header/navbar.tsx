@@ -11,9 +11,10 @@ const NavBar = () => {
                         <span className="sr-only">Home</span>
                         <Image
                 alt="icon"
-                src={"/svg/logo.svg"}
-                width={80}
+                src={"/svg/aaralogo.png"}
+                width={130}
                 height={15}
+                className='mb-3'
               />
                     </Link>
 

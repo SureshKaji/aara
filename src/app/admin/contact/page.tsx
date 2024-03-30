@@ -5,7 +5,10 @@ const ContactPage = async () => {
   const data = await GetAllContactSubmissions();
   return (
     
-<div className="overflow-x-auto rounded-lg border border-gray-200">
+<div className="rounded-sm border border-stroke bg-white px-5 pb-2.5 pt-6 shadow-default dark:border-strokedark dark:bg-boxdark sm:px-7.5 xl:pb-1">
+<h4 className="mb-6 text-xl font-semibold text-black dark:text-white transition-colors duration-300">
+    Contact Us Page
+    </h4>
   <table className="min-w-full divide-y-2 divide-gray-200 bg-white text-sm">
     <thead className="ltr:text-left rtl:text-right">
     <tr className="grid grid-cols-3 rounded-sm bg-gray-2 dark:bg-meta-4 sm:grid-cols-5 text-gray-700">
