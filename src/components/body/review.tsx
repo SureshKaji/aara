@@ -13,7 +13,7 @@ const Review = () => {
           <div className="flex items-center gap-4">
             <Image
               alt=""
-              src={"/svg/aari7.jpeg"}
+              src={"/svg/person2.jpeg"}
               width={100}
               height={100}
               className="size-14 rounded-full object-cover"
@@ -73,14 +73,12 @@ const Review = () => {
                 </svg>
               </div>
   
-              <p className="mt-0.5 text-lg font-medium text-gray-900">Paul Starr</p>
+              <p className="mt-0.5 text-lg font-medium text-gray-900">Piranavi</p>
             </div>
           </div>
   
           <p className="mt-4 text-gray-700">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa sit rerum incidunt, a
-            consequuntur recusandae ab saepe illo est quia obcaecati neque quibusdam eius accusamus
-            error officiis atque voluptates magnam!
+            This is wonder Full website to find aari work design. its help to find more design, they have varient designs, them customer services are very quality, whenever i call them they always response our calls.
           </p>
         </blockquote>
   
@@ -88,7 +86,7 @@ const Review = () => {
           <div className="flex items-center gap-4">
           <Image
               alt=""
-              src={"/svg/aari7.jpeg"}
+              src={"/svg/person1.jpeg"}
               width={100}
               height={100}
               className="size-14 rounded-full object-cover"
@@ -147,14 +145,12 @@ const Review = () => {
                 </svg>
               </div>
   
-              <p className="mt-0.5 text-lg font-medium text-gray-900">Paul Starr</p>
+              <p className="mt-0.5 text-lg font-medium text-gray-900">Mathushana</p>
             </div>
           </div>
   
           <p className="mt-4 text-gray-700">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa sit rerum incidunt, a
-            consequuntur recusandae ab saepe illo est quia obcaecati neque quibusdam eius accusamus
-            error officiis atque voluptates magnam!
+         I am very happy to see this website bcz such a wonderfull aari work collection website. they provide best services. 100 gurandy
           </p>
         </blockquote>
   
@@ -162,7 +158,7 @@ const Review = () => {
           <div className="flex items-center gap-4">
           <Image
               alt=""
-              src={"/svg/aari7.jpeg"}
+              src={"/svg/person3.jpeg"}
               width={50}
               height={50}
               className="size-14 rounded-full object-cover"
@@ -213,14 +209,12 @@ const Review = () => {
                 </svg>
               </div>
   
-              <p className="mt-0.5 text-lg font-medium text-gray-900">Paul Starr</p>
+              <p className="mt-0.5 text-lg font-medium text-gray-900">Mala</p>
             </div>
           </div>
   
           <p className="mt-4 text-gray-700">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa sit rerum incidunt, a
-            consequuntur recusandae ab saepe illo est quia obcaecati neque quibusdam eius accusamus
-            error officiis atque voluptates magnam!
+            They have such a beautiful aari work collection, i love it more and prices are more affortable.
           </p>
         </blockquote>
       </div>
