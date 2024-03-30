@@ -14,7 +14,7 @@ const About = () => {
                   <Image
                     width={300}
                     height={400}
-                    src={"/svg/aari1.jpg"}
+                    src={"/svg/4.jpeg"}
                     alt=""
                     className="w-full rounded-2xl"
                   />
@@ -23,7 +23,7 @@ const About = () => {
                   <Image
                     width={300}
                     height={400}
-                    src={"/svg/aari1.jpg"}
+                    src={"/svg/3.jpeg"}
                     alt=""
                     className="w-full rounded-2xl"
                   />
@@ -34,7 +34,7 @@ const About = () => {
                   <Image
                     width={300}
                     height={400}
-                    src={"/svg/aari1.jpg"}
+                    src={"/svg/2.jpeg"}
                     alt=""
                     className="w-full rounded-2xl"
                   />
@@ -46,20 +46,18 @@ const About = () => {
           <div className="w-full px-4 lg:w-1/2  xl:w-5/12">
             <div className="mt-5 lg:mt-0">
               <span className="block mb-4 text-lg font-semibold text-primary">
-                Why Choose Us
+              It is All About My Business 
               </span>
               <h2 className="mb-5 text-3xl font-bold text-dark  sm:text-[40px]/[48px]">
-                Make your customers happy by giving services.
+              Fashion Designer In Jaffna
               </h2>
               <p className="mb-5 text-base text-body-color ">
-                It is a long established fact that a reader will be distracted
-                by the readable content of a page when looking at its layout.
-                The point of using Lorem Ipsum is that it has a more-or-less.
+              The Best Designer In Jaffna , Marking Its Territory With Epic Customization And Work Man Ship , Our Designs Have Been Recognised In Both National And International Levels Till Date , We Being Very Enthusiastic About Designs Are Crafted As The Best Designers For Clothing In Jaffna. 
               </p>
               <p className="mb-8 text-base text-body-color">
-                A domain name is one of the first steps to establishing your
-                brand. Secure a consistent brand image with a domain name that
-                matches your business.
+              We customise outfits that are trendy and outlooking , Starting from basic designs of lehengas , gowns , half sarees , indo western wear we design the bridal wear with hand embroidery which is a trade mark of our designs.
+              Fashion designing industry is blooming day to day , it is an influenced by culture and trends , we are responsible for creating creative looks for individual garments
+              We Conduct research on the current fashion trends and interpret the same for the clients . We ensure the quality of the soursed fabric and design . until  it reaches the satisfaction of the customer .
               </p>
 
             </div>

@@ -47,7 +47,7 @@ const   Contact = () => {
                 <p className="mt-2 text-sm text-gray-500">
                   Our friendly team is here to help.
                 </p>
-                <p className="mt-2 text-sm text-gray-500">test@gmail.com</p>
+                <p className="mt-2 text-sm text-gray-500">aarafashion@gmail.com</p>
               </div>
 
               <div>
@@ -109,9 +109,9 @@ const   Contact = () => {
                   Office
                 </h2>
                 <p className="mt-2 text-sm text-gray-500">
-                  Come say hello at our office HQ.
+                  Come say hello at our Showroom.
                 </p>
-                <p className="mt-2 text-sm text-gray-500">New Delhi, India</p>
+                <p className="mt-2 text-sm text-gray-500">School Lane, Thavady, Jaffna.</p>
               </div>
 
               <div>
@@ -136,7 +136,7 @@ const   Contact = () => {
                   Phone
                 </h2>
 
-                <p className="mt-2 text-sm text-gray-500">+91 9876543210</p>
+                <p className="mt-2 text-sm text-gray-500">+94 755403432</p>
               </div>
             </div>
 
@@ -176,7 +176,7 @@ const   Contact = () => {
                   </label>
                   <input
                     type="email"
-                    placeholder="test@gmail.com"
+                    placeholder="aarafashion@gmail.com"
                     name="email"
                     className="block w-full px-5 py-2.5 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg  focus:border-gray-400 der-gray-400 focus:ring-gray-400 focus:outline-none focus:ring focus:ring-opacity-40"
                   />
@@ -198,7 +198,7 @@ const   Contact = () => {
                 <Button
                   type="submit"
                  
-                  className="w-full px-6 py-3 mt-4 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-gray-800 rounded-lg hover:bg-gray-600 focus:outline-none focus:ring focus:ring-gray-300 focus:ring-opacity-50"
+                  className="w-full px-6 py-3 mt-4 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-[#116466] rounded-lg hover:bg-[#116566e6] focus:outline-none focus:ring focus:ring-gray-300 focus:ring-opacity-50"
                 >
                   Send message
                 </Button>
