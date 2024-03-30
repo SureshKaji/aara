@@ -1,10 +1,8 @@
-import { GetContactRequest } from "@/action.ts/contact";
-
+import { GetAllContactSubmissions } from "@/action.ts/contact";
 import React from "react";
 
 const ContactPage = async () => {
-  const contact = await GetContactRequest();
- 
+  const data = await GetAllContactSubmissions();
   return (
     
 <div className="overflow-x-auto rounded-lg border border-gray-200">
@@ -12,7 +10,10 @@ const ContactPage = async () => {
     <thead className="ltr:text-left rtl:text-right">
     <tr className="grid grid-cols-3 rounded-sm bg-gray-2 dark:bg-meta-4 sm:grid-cols-5 text-gray-700">
           <th className="p-2.5 text-center xl:p-5 text-sm font-medium uppercase xsm:text-base">
-            Name
+            First Name
+          </th>
+          <th className="p-2.5 text-center xl:p-5 text-sm font-medium uppercase xsm:text-base">
+            Last Name
           </th>
           <th className="p-2.5 text-center xl:p-5 text-sm font-medium uppercase xsm:text-base">
            Email
@@ -24,23 +25,26 @@ const ContactPage = async () => {
     </thead>
 
     <tbody className="divide-y divide-gray-200">
-    {contact.map((contact, index) => {
+    {data.map((contactUs, index) => {
           return (
             <tr
-              key={index}
+            key={index}
               className="grid grid-cols-3 sm:grid-cols-5 hover:bg-gray-100 dark:hover:bg-meta-3 transition duration-300"
             >
               <td className="flex items-center gap-3 p-2.5 xl:p-5">
               
                 <p className="hidden text-black dark:text-white sm:block">
-                  {contact.name}
+                {contactUs.firstName}
                 </p>
               </td>
               <td className="flex items-center justify-center p-2.5 xl:p-5">
-                <p className="text-black dark:text-white">{contact.email}</p>
+                <p className="text-black dark:text-white">{contactUs.lastName}</p>
               </td>
               <td className="flex items-center justify-center p-2.5 xl:p-5">
-                <p className="text-meta-3">{contact.message}</p>
+                <p className="text-black dark:text-white">{contactUs.email}</p>
+              </td>
+              <td className="flex items-center justify-center p-2.5 xl:p-5">
+                <p className="text-meta-3">{contactUs.message}</p>
               </td>
               <td className="whitespace-nowrap px-4 py-2">
           <a
@@ -51,8 +55,8 @@ const ContactPage = async () => {
           </a>
         </td>
             </tr>
-          );
-        })}
+           );
+          })}
       </tbody>
     </table>
   </div>
